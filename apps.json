@@ -24,7 +24,7 @@
       {"name":"moonphase.img","url":"app-icon.js","evaluate":true}
     ]
   },
-  { "id": "daysl",
+ { "id": "daysl",
     "name": "Days left",
     "icon": "app.png",
     "version":"0.03",
@@ -2142,5 +2142,20 @@
     {"name": "counter.app.js", "url": "counter.js"},
     {"name": "counter.img", "url": "counter-icon.js", "evaluate": true}
    ]
+  },
+  {"id": "stegeuhr",
+    "name": "Stefans Geburtstagsuhr",
+    "shortName": "stegeuhr",
+    "icon": "stegeuhr.png",
+    "version": "0.01",
+    "description": "Naja, Uhr halt... ;-)",
+    "tags": "",
+    "type": "clock",
+    "allow_emulator": true,
+    "data": "stegeuhr.save",
+    "storage": [
+      {"name": "stegeuhr.app.js", "url": "stegeuhr.js"},
+      {"name": "stegeuhr.img", "url": "stegeuhr-icon.js", "evaluate": true}
+     ]
   }
 ]
