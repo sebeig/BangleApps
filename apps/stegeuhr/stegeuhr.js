@@ -88,7 +88,9 @@ function getTimeString() {
 function drawTimeString() {
     var timeString = getTimeString();
     g.clear();
+    Bangle.loadWidgets();
     Bangle.drawWidgets();
+    g.setColor(255,255,255);
     var fontSize = 13*3;
     var startY = 0;
     var lines = breakLines(timeString);
@@ -99,9 +101,6 @@ function drawTimeString() {
         startY = startY + fontSize;
     }
 }
-
-Bangle.loadWidgets();
-Bangle.drawWidgets();
 
 Bangle.on('twist', drawTimeString);
 
