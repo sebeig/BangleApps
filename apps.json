@@ -2149,7 +2149,7 @@
     "icon": "stegeuhr.png",
     "version": "0.01",
     "description": "Naja, Uhr halt... ;-)",
-    "tags": "",
+    "tags": "clock",
     "type": "clock",
     "allow_emulator": true,
     "data": "stegeuhr.save",
