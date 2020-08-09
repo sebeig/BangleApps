@@ -2152,12 +2152,12 @@
     "tags": "clock",
     "type": "clock",
     "allow_emulator": true,
-    "data": [
-      {"name":"stegeuhr.save","storageFile": true}
-    ],
     "storage": [
       {"name": "stegeuhr.app.js", "url": "stegeuhr.js"},
       {"name": "stegeuhr.img", "url": "stegeuhr-icon.js", "evaluate": true}
-     ]
+     ],
+     "data": [
+      {"name":"stegeuhr.save", "storageFile": true}
+    ]
   }
 ]
