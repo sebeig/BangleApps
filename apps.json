@@ -2147,7 +2147,7 @@
     "name": "Stefans Geburtstagsuhr",
     "shortName": "stegeuhr",
     "icon": "stegeuhr.png",
-    "version": "0.01",
+    "version": "0.02",
     "description": "Naja, Uhr halt... ;-)",
     "tags": "clock",
     "type": "clock",
